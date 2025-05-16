@@ -63,11 +63,24 @@
             color: white;
             padding: 120px 0;
         }
+
+        .botao-hero{
+            color: var(--preto);
+            text-decoration: none;
+            font-size: 15px;
+            padding: 10px;
+            background-color: var(--cor-principal);
+            border-radius: 16px;
+        }
         
         .feature-icon {
             font-size: 2.5rem;
-            color: var(--primary-color);
+            color: var(--cor-principal);
             margin-bottom: 1rem;
+        }
+
+        .titulo-icon{
+            color: var(--cor-secundaria);
         }
         
         .service-card {
