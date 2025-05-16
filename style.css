@@ -8,6 +8,8 @@
         --cor-secundaria: #151100;
         --branco: #ffffff;
         --preto: #000000;
+
+        
 }
         
         body {
@@ -23,12 +25,12 @@
         }
 
         .nome_empresa{
-            font-size: 59px;
+            font-size: 4vh;
             color: var(--cor-principal);
         }
 
         .link-menu{
-            font-size: 25px;
+            font-size: 3vh;
             color: var(--cor-principal);
             text-decoration: none;
             padding: 10px;
@@ -73,9 +75,15 @@
             border-radius: 16px;
         }
         
+        .sobre{
+            background-color: black;
+            padding: 20px;
+            border-radius: 16px;
+            color: white;
+        }
+
         .feature-icon {
             font-size: 2.5rem;
-            color: var(--cor-principal);
             margin-bottom: 1rem;
         }
 
