@@ -13,7 +13,7 @@
         // Adiciona classe ativa ao item de menu correspondente à seção visível
         window.addEventListener('scroll', function() {
             const sections = document.querySelectorAll('section');
-            const navItems = document.querySelectorAll('.link-menu');
+            const navItems = document.querySelectorAll('.nav-link');
             
             let current = '';
             
@@ -27,9 +27,9 @@
             });
             
             navItems.forEach(item => {
-                item.classList.remove('ativo');
+                item.classList.remove('active');
                 if (item.getAttribute('href') === '#' + current) {
-                    item.classList.add('ativo');
+                    item.classList.add('active');
                 }
             });
         });
