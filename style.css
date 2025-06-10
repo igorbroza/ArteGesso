@@ -59,7 +59,7 @@
         }
         
         .hero-section {
-            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(./img/ForroeParede.jpg);
             background-size: cover;
             background-position: center;
             color: white;
@@ -75,6 +75,12 @@
             border-radius: 16px;
         }
         
+        .card-img-bottom{
+            width: 100%;    /* Garante que a imagem ocupe 100% da largura do pai */
+            height: 180px;  /* Define uma altura fixa para todas as imagens */
+            object-fit: cover; /* Faz com que a imagem preencha a área, cortando o excesso */
+        }
+
         .sobre{
             border-radius: 16px;
             color: white;
